@@ -7,14 +7,14 @@ def map_to_negativize(source_array)
 i = 0 
 array = []
 
-# while i < source_array.length do 
-#   array << source_array[i] * -1
-#   i += 1 
+while i < source_array.length do 
+  array << source_array[i] * -1
+  i += 1 
   
-#   #similar to array.push[i]
-# end 
-# return array 
-# end 
+  #similar to array.push[i]
+end 
+return array 
+end 
 
 
 # def map_to_no_change(source_array)   
