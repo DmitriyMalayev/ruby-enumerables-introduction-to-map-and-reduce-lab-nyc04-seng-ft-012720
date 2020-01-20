@@ -11,7 +11,8 @@ while i < source_array.length do
   array << source_array[i] * -1
   i += 1 
   
-  #similar to source_array.push[i]
+  #similar to array.push(source_array[i] * -1)
+  
 end 
 return array 
 end 
