@@ -8,8 +8,10 @@ i = 0
 array = []
 
 while i < source_array.length do 
-  array << source_array[i].to_i * -1
+  array << source_array[i] * -1
   i += 1 
+  
+  #similar to array.push[i]
 end 
 return array 
 end 
