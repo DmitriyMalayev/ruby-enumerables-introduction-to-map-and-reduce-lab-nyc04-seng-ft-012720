@@ -18,32 +18,32 @@ return array
 end 
 
 
-# def map_to_no_change(source_array)   
-# return source_array
-# end 
+def map_to_no_change(source_array)   
+return source_array
+end 
 
 
-# def map_to_double(source_array)   
-# i = 0 
-# array = []
+def map_to_double(source_array)   
+i = 0 
+array = []
 
-# while i < source_array.length do 
-#   array << source_array[i].to_i * 2
-#   i += 1 
-# end 
-# return array 
-# end 
+while i < source_array.length do 
+  array << source_array[i].to_i * 2
+  i += 1 
+end 
+return array 
+end 
 
-# def map_to_square(source_array)   
-# i = 0 
-# array = []
+def map_to_square(source_array)   
+i = 0 
+array = []
 
-# while i < source_array.length do 
-#   array << source_array[i].to_i ** 2
-#   i += 1 
-# end 
-# return array 
-# end 
+while i < source_array.length do 
+  array << source_array[i].to_i ** 2
+  i += 1 
+end 
+return array 
+end 
 
 
 
@@ -64,9 +64,9 @@ def reduce_to_all_true(source_array)
       i = 0 
       while i < source_array.length do 
         return false if source_array[i] == false 
-    i += 1 
+        i += 1 
   end
-  total
+  return true
 end 
 
 
